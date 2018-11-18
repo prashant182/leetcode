@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
     public int numUniqueEmails(String[] emails) {
         if (emails.length >100 || emails.length==0){
             return 0;
