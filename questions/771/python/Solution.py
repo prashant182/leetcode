@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: int
         """
         if len(J)==0 or len(S)==0:
-            return 0;
+            return 0
         answer=0
         J_set = set(J)
         for char in S:
