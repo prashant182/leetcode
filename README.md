@@ -1,2 +1,2 @@
 # leetcode
-My Journey on storing Leetcode problems and answers.
+My attempt on Leetcode solutions in Java and Python. 
