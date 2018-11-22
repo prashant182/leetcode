@@ -14,5 +14,5 @@ class Solution(object):
             if("+" in local):
                 local=local.split("+",1)[0]
             newLocal = local.replace(".","")
-            emailSet.add(newLocal+domain)
+            emailSet.add(newLocal+"@"+domain)
         return len(emailSet)

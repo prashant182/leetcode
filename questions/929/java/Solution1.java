@@ -14,7 +14,7 @@ class Solution1 {
             localName = splitEmail[0];
             domainName= splitEmail[1];
             localName = processLocalName(localName);
-            String newDomain = localName+domainName;
+            String newDomain = localName+"@"+domainName;
             emailSet.add(newDomain);
         }
         
